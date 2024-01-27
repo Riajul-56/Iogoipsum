@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1760px;
+    margin: 0 auto;
+}
+/* ================== nav css start=================== */
+nav{
+    box-shadow: 0px 5.333px 80px 0px rgba(0, 0, 0, 0.10);
+    padding: 25px 0 !important;
+    background: #FFFFFF;
+}
+.nablogo {
+    width: 186px;
+}
+.navbarlink{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #1C1E53;
+}
+.navbarlink:hover{
+    color: #5E3BEE;
+}
+nav ul li{
+    margin-left: 42px;
+}
+.active{
+    color: #5E3BEE !important;
+}
+.navbutton{
+    border: none;
+    background: transparent;
+    padding: 18px 30px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+    color: #5E3BEE;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    transition: 0.4s;
+}
+.navbutton:hover{
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+}
+
+/* ================== nav css end=================== */
+/* ================== banner css start=================== */
+#banner{
+    background: #F5FCFF;
+    padding-top: 119px;
+    padding-bottom: 132px;
+}
+#banner .text_area h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+}
+#banner .text_area h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+    width: 790px;
+    margin-top: 21px;
+}
+#banner .text_area h1 span{
+    color: #5E3BEE;
+}
+#banner .text_area p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #1C1E53;
+    width: 621px;
+    margin-top: 21px;
+}
+#banner .text_area a{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #5E3BEE;
+    text-decoration: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin-top: 53px ;
+    display: inline-block;
+}
+#banner .text_area a:hover{
+    color: #5E3BEE;
+    background: transparent;
+    border: 1px solid #5E3BEE;
+}
+/* ================== banner css end=================== */
+/* ================== skill css start=================== */
+#skill{
+    margin-top: 148px;
+    margin-bottom: 149px;
+}
+#skill .title{
+    margin-bottom: 106px;
+}
+#skill .title h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: 282938;
+    margin-top: 21px;
+}
+#skill .title h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 150%;
+    color: 282938;
+}
+#skill .skill_img{
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.skill_img img{
+    width: 53px;
+}
+#skill .skill_item{
+    background: #F5FCFF;
+    padding: 32px;
+    border-radius: 10px;
+    border-bottom: 4px solid transparent;
+    transition: 0.4s;
+}
+#skill .skill_item:hover{
+    border-bottom: 4px solid #5E3BEE;
+}
+.skill_title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #282938;
+    line-height: 140%;
+    margin-top: 32px;
+}
+.skill_title_web .skill_title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #282938;
+    line-height: 140%;
+    margin-top: 32px;
+    width: 408px;
+}
+.skill_text{
+    font-size: 21px;
+    font-weight: 400;
+    color: #1C1E53;
+    line-height: 150%;
+    margin-top: 21px;
+}
+/* ================== slill css end=================== */
+/* ================== about css start=================== */
+#about img{
+   width: 100%;
+}
+#about .about_text h5{
+    font-size: 21px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 150%;
+}
+#about .about_text h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #282938;
+    line-height: 120%;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+#about .about_text p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #1C1E53;
+    line-height: 150%;
+}
+#about{
+    padding-bottom: 133px;
+}
+/* ================== about css end=================== */
+/* ================== Portfolio css start=================== */
+#Portfolio{
+    margin-bottom: 149px;
+    background-color: #FFFFFF;
+}
+#Portfolio h5{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+    margin-bottom: 21px;
+}
+#Portfolio .heading{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+    margin-bottom: 106px;
+}
+#Portfolio .left_button{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 251px;
+    height: 74px;
+    background-color: #E62872;
+    border-radius: 10px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    transition: 0.4s;
+    border: 1px solid transparent;
+    
+}
+#Portfolio .left_button:hover{
+    border: 1px solid #282938;
+    background: transparent;
+    color: #282938;
+}
+#Portfolio .card_main h2{
+    font-size: 32px;
+    line-height: 140%;
+    color: #282938;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+#Portfolio .card_main p{
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    font-weight: 400;
+}
+#Portfolio .card_main a{
+    width: 180px;
+    height: 38px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #000000;
+    display: inline-block;
+    border-bottom: 1px solid #5E3BEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+#Portfolio .card_main a img{
+    width: 16px;
+    height: 16px;
+}
+#Portfolio .text_area{
+    padding: 32px 32px;
+}
+#Portfolio .img_big{
+    width: 100%;
+}
+#Portfolio .shadow{
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.15);
+}
+/* ================== Portfolio css end=================== */
+/* ================== testimonials css start=================== */
+#testimonials{
+    background-color: #F5FCFF;
+}
+#testimonials .title{
+    padding-top: 149px;
+    margin-bottom: 160px;
+}
+#testimonials .title h5{
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+#testimonials .title h2{
+    font-size: 64px;
+    line-height: 120%;
+    color: #282938;
+    font-weight: 700;
+}
+#testimonials .full_part{
+    border-radius: 8px;
+    border: 1px solid #006B6A;
+    padding: 42px;
+    margin-bottom: 149px;
+}
+#testimonials .star img{
+    width: 154px;
+    margin-bottom: 42px;
+}
+.full_part p{
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    font-weight: 400;
+    width: 469px;
+    height: 144px;
+}
+#testimonials .last img{
+    width: 74px;
+}
+#testimonials .last h4{
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    font-weight: 600;
+    margin: 0;
+}
+#testimonials .last h6{
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    font-weight: 400;
+    margin: 0;
+}
+#testimonials .last{
+    gap: 21px;
+}
+/* ================== testimonials css end=================== */
+/* ================== contact css start=================== */
+.contact_title h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+}
+.contact_title h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+}
+.contact_title p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #282938;
+    line-height: 150%;
+}
+.contact_title{
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+#contact label{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938
+}
+.row input{
+    border-color: #5E3BEE;
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.box{
+    margin-top: 32px;
+}
+#contact select{
+    height: 64px;
+    border-color: #5E3BEE;
+}
+.select_box{
+    margin-top: 32px;
+}
+.select_box label{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938
+}
+.msgbox{
+    margin-top: 32px;
+}
+.msgbox textarea{
+    width: 100%;
+    border-color: #5E3BEE;
+    border-radius: 8px;
+}
+.mark{
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: transparent;
+}
+#contact .mark input{
+   width: 21px;
+   height: 21px;
+   border-radius: 5px;
+   border: 1px solid #282938;
+   background: #FFFFFF;
+}
+.mark label{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn-last{
+    width: 170px;
+    height: 69px;
+    border-radius: 8px;
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+.btn-last:hover{
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+}
+/* ================== contact css end=================== */
+/* ================== footer css end=================== */
+#footer{
+    height: 253px;
+    width: 100%;
+    border-bottom: 1px solid #282938;
+    display: flex;
+    align-items: center;
+    background-color: #F5FCFF;
+}
+#footer .logo_img img{
+    width: 186px;
+    height: 40px;
+}
+#footer .nav_list ul li a{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+#footer ul li{
+    list-style: none;
+}
+#footer ul{
+    display: flex;
+    gap: 42px;
+}
+#footer .icon i{
+    font-size: 32px;
+}
+#footer .icon{
+    display: flex;
+    gap: 16px;
+}
+#footer .main{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_tow .last h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+}
+
+#footer_tow .nav_end a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+#footer_tow .nav_end ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+#footer_tow .last{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_tow{
+    padding-top: 42px;
+    background-color: #F5FCFF;
+}
+/* ================== footer css end=================== */
